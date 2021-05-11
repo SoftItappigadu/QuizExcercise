@@ -34,7 +34,7 @@ public class QuizController {
 	    quiz1.setResults(results1);
 	    quiz.add(quiz1);
 	    
-	    String uri2 = "https://opentdb.com/api.php?amount=5&category=11";
+	    String uri2 = "https://opentdb.com/api.php?amount=5&category=12";
 	    RestTemplate restTemplate2 = new RestTemplate();
 	    Response serverResponse2 = restTemplate2.getForObject(uri2, Response.class);
 	    Quiz quiz2 = new Quiz();
