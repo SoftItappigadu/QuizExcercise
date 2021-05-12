@@ -40,7 +40,7 @@ public class QuizController {
 	    Quiz quiz2 = new Quiz();
 	    quiz2.setCategory("Entertainment: Music");
 	    List<Result> results2 = new ArrayList<Result>();
-	    List<ServerResult> serverResults2 = serverResponse1.getResults();
+	    List<ServerResult> serverResults2 = serverResponse2.getResults();
 	    for(ServerResult serverResult2 : serverResults2) {
 	    	Result result2 = new Result();
 	    	result2.setType(serverResult2.getType());
